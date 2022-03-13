@@ -1,0 +1,1 @@
+def permutation(string):
