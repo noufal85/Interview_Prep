@@ -8,3 +8,7 @@ more data here
 commit line ends
 #####
 
+commit 3
+more data here
+commit line ends
+#####
