@@ -13,6 +13,7 @@ def monotonic(arr):
 
     return False
 
+# NK: Added another approach
 def monotonic_arr(A):
     x= []
     y = []
@@ -25,9 +26,6 @@ def monotonic_arr(A):
     else:
         return False
 
-if __name__ == "__main__":
-    mon1 = [1,2,3,4,5,6,4]
-    print(monotonic_arr(mon1))
 
 def replace_None(lst):
     for i in range(1,len(lst)):
@@ -53,3 +51,5 @@ if __name__ == "__main__":
     print(replace_None(none1))
     dic = {1:1, 2:2, 3:3, 4:4, 5:5}
     print(nth_highest(dic,2))
+    mon1 = [1,2,3,4,5,6,4]
+    print(monotonic_arr(mon1))
