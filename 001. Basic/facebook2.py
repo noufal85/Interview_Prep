@@ -13,6 +13,22 @@ def monotonic(arr):
 
     return False
 
+def monotonic_arr(A):
+    x= []
+    y = []
+    x.extend(A)
+    y.extend(A)
+    x.sort()
+    y.sort(reverse= True)
+    if x == A or y ==A:
+        return True
+    else:
+        return False
+
+if __name__ == "__main__":
+    mon1 = [1,2,3,4,5,6,4]
+    print(monotonic_arr(mon1))
+
 def replace_None(lst):
     for i in range(1,len(lst)):
         if lst[i]:
