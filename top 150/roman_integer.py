@@ -19,6 +19,10 @@ C can be placed before D (500) and M (1000) to make 400 and 900.
 Given a roman numeral, convert it to an integer.
 '''
 
+#  explanation of solution
+#  https://leetcode.com/problems/roman-to-integer/discuss/6542/4-lines-in-Python
+# youtube video explanation of solution - https://www.youtube.com/watch?v=QH1iEc2IEgU
+
 class Solution:
     def romanToInt(self, s: str) -> int:
         roman = {'I':1, 'V':5, 'X':10, 'L':50, 'C':100, 
