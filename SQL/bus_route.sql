@@ -1,3 +1,11 @@
+/*
+problem statement :
+Given a list of bus routes, find the shortest path from source to destination.
+-- source and destination are not in the same route
+
+*/
+*/
+
 create table destination_q
 (source_ varchar(50),
 destination_ varchar(50))
@@ -24,4 +32,6 @@ left join destination_q B
 on A.source_ = B.destination_
 and A.destination_ = B.Source_
 group by 1,2
+
+
 

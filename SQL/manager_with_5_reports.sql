@@ -34,9 +34,11 @@ Output:
 
 '''
 
-select B.name
-from employee A
-join employee B on A.managerId = B.id 
-where A.managerId is not null
-group by 1
-having count(A.id) >= 5
+-- using manager table to drive 
+# Write your MySQL query statement below
+select m.name
+from Employee m
+join Employee e
+on m.id = e.managerId 
+having count(e.id) >= 5
+
