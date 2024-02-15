@@ -9,5 +9,7 @@
 
 ## Amazing git repos 
 [Build your own X](https://github.com/codecrafters-io/build-your-own-x)
+
 [Awesome cheat sheets](https://lecoupa.github.io/awesome-cheatsheets/)
+
 [coding-interview-university](https://github.com/jwasham/coding-interview-university)
